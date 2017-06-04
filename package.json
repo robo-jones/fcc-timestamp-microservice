@@ -1,0 +1,14 @@
+{
+  "name": "timestamp-microservice",
+  "version": "0.0.0",
+  "description": "A timestamp microservice for the FreeCodeCamp backend certification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
