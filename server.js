@@ -1,6 +1,6 @@
 import app from './config/express';
 
+const url = process.env.PORT;
 
-
-app.listen(8080);
-console.log('Server running on port 8080');
+app.listen(url);
+console.log('Server running on port ' + url);
