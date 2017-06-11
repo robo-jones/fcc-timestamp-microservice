@@ -1,6 +1,6 @@
 import app from './config/express';
 
-const url = process.env.PORT;
+const port = process.env.PORT;
 
-app.listen(url);
-console.log('Server running on port ' + url);
+app.listen(port);
+console.log('Server running on port ' + port);
