@@ -1,0 +1,28 @@
+<!doctype HTML>
+
+<head>
+    <title>FCC Timestamp Microservice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h1 class="text-center">Timestamp Microservice</h1>
+                <p>Returns both a natural language date and the Unix date for either a natural language date or Unix date passed to /api/ as a URL parameter</p>
+                <h4>Example usage:</h4>
+                <code>/api/March 10 1995</code>
+                <br>
+                <code>/api/794793600000</code>
+                <h4>Example output:</h4>
+                <code>
+                    {
+                      "unix": 794793600000,
+                      "natural": "Fri Mar 10 1995"
+                    }
+                </code>
+            </div>
+        </div>
+    </div>
+</body>
